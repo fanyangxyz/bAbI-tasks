@@ -23,7 +23,8 @@ function WhereIsObject:generate_story(world, knowledge, story)
     local story_length = 0
 
     local allowed_actions = {actions.get, actions.drop, actions.teleport}
-    while num_questions < 5 do
+    -- while num_questions < 5 do
+    while num_questions < 10 do
         local clause
         while not clause do
             local random_action =
